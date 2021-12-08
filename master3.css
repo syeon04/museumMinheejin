@@ -1,0 +1,86 @@
+*{margin: 0; padding: 0; text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 164px;
+  background-color: #EDEDEF;
+}
+
+header nav{
+  width: 1200px;
+  height: 80px;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a{
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Noto Sans Kannada';
+  font-size: 1.2em;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+
+header nav ul li a:hover{
+  color: #ffffff;
+}
+
+section div {
+  background-color: #EDEDEF;}
+
+.main3{
+    width: 100%;
+    height: 440px;
+    background-image: url('img/img18.png');}
+
+
+    .menu1{padding-left: 100px;
+    padding-top: 50px;}
+    .menu3{padding-top: 50px;
+      padding-left: 30px;
+      transform: translate(500px,7px);
+      opacity: 30%;
+    font-size: 20px;}
+    .menu4{padding-top: 50px;
+      transform: translate(500px,7px);
+    font-size: 20px;
+  opacity: 30%;}
+    .menu5{font-size: 20px;
+      transform: translate(500px,7px);
+    padding-top: 50px;
+
+    }
+
+.cont8{padding-top: 150px;padding-left: 50px;}
+.cont9{padding-left: 190px; padding-top: 150px;
+padding-bottom: 150px;}
+
+
+footer{
+  width: 100%;
+  height: 66px;
+  background-color: #EDEDEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-family: 'Noto Sans Kannada';
+  font-size: 1.0em;
+  letter-spacing: -0.05em;
+}
